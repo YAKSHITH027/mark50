@@ -1,4 +1,6 @@
 {
-  "root": true,
-  "rules": {}
+  "parserOptions": {
+    "ecmaVersion": 2015, // or "latest" for the latest ECMAScript version
+    "sourceType": "module" // enables ES6 `import` and `export`
+  }
 }
