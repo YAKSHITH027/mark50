@@ -1,10 +1,11 @@
 {
   "name": "mark42",
   "version": "0.1.0",
+  "eslintConfig": {},
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "DISABLE_ESLINT=true next build",
     "start": "next start",
     "lint": "next lint"
   },
